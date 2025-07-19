@@ -1,3 +1,6 @@
+### I'm too fucking lazy to implement yaml reader and I hate .env files so here's this shit
+### I do not care that I should follow industry standards, It's my repository and I do what I want
+
 from dataclasses import dataclass
 
 
