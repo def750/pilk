@@ -1,32 +1,21 @@
-# Developing a Single Page App with FastAPI and React
+# bun-react-tailwind-shadcn-template
 
-### Want to learn how to build this?
+To install dependencies:
 
-Check out the [tutorial](https://testdriven.io/blog/fastapi-react/).
+```bash
+bun install
+```
 
-## Want to use this project?
+To start a development server:
 
-1. Fork/Clone
+```bash
+bun dev
+```
 
-1. Run the server-side FastAPI app in one terminal window:
+To run for production:
 
-    ```sh
-    $ cd backend
-    $ python3.13 -m venv env
-    $ source env/bin/activate
-    (env)$ pip install -r requirements.txt
-    (env)$ python main.py
-    ```
+```bash
+bun start
+```
 
-    Navigate to [http://localhost:8000](http://localhost:8000)
-
-1. Run the client-side React app in a different terminal window:
-
-    ```sh
-    $ cd frontend
-    $ npm install
-    $ npm run dev
-    ```
-
-    Navigate to [http://localhost:5173](http://localhost:5173)
-# pilk
+This project was created using `bun init` in bun v1.2.13. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.

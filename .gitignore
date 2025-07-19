@@ -1,0 +1,46 @@
+# Node.js dependencies and output
+node_modules/
+dist/
+out/
+*.tgz
+bun.lock
+
+# Logs
+logs/
+*.log
+
+# Code coverage
+coverage/
+*.lcov
+
+# Environment variables
+.env
+.env.*
+settings.toml
+
+# Caches
+.cache/
+*.tsbuildinfo
+.mypy_cache/
+.ruff_cache/
+
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+build/
+*.egg-info/
+*.egg
+
+# Python environments
+.venv/
+env/
+venv/
+
+# IDE/project settings
+.idea/
+
+# OS/editor files
+.DS_Store
+
+# Cfg
+settings.py
